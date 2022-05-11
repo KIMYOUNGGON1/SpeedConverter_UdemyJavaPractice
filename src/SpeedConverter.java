@@ -15,8 +15,8 @@ public class SpeedConverter {
         } else {
             long milesPerHour = toMilesPerHour(kilometersPerHour);
             System.out.println(kilometersPerHour +
-                    "Km/h= " + milesPerHour +
-                    "mi/h");
+                    " Km/h = " + milesPerHour +
+                    " mi/h");
 
         }
     }
