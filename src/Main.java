@@ -1,3 +1,5 @@
+
+
 public class Main {
 
     public static void main(String[] args) {
@@ -6,6 +8,9 @@ public class Main {
         System.out.println("Miles = " + miles);
 
         SpeedConverter.printConversion(10.5);
+
+        MegaBytesConverter.printMegaBytesAndKiloBytes(0);
+
 
     }
 }
