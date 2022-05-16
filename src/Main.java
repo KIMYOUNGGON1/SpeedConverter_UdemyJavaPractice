@@ -11,6 +11,8 @@ public class Main {
 
         MegaBytesConverter.printMegaBytesAndKiloBytes(0);
 
+        boolean trueOrFalse = BarkingDog.shouldWakeUp(true, 1);
+        System.out.println(trueOrFalse);
 
     }
 }
